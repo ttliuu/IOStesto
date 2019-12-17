@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586260B7239989A500B59E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260B6239989A500B59E10 /* AppDelegate.swift */; };
+		586260B9239989A500B59E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260B8239989A500B59E10 /* SceneDelegate.swift */; };
+		586260BB239989A500B59E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260BA239989A500B59E10 /* ViewController.swift */; };
+		586260BE239989A500B59E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586260BC239989A500B59E10 /* Main.storyboard */; };
+		586260C0239989A600B59E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586260BF239989A600B59E10 /* Assets.xcassets */; };
+		586260C3239989A600B59E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586260C1239989A600B59E10 /* LaunchScreen.storyboard */; };
+		58834FD6239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */; };
+		58834FD7239A8DFC00A6C59E /* CampusPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */; };
+		58834FD8239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */; };
+		58834FD9239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */; };
+		58834FDA239A8DFC00A6C59E /* Cluett_Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		586260B3239989A500B59E10 /* Testo12051353.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testo12051353.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586260B6239989A500B59E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		586260B8239989A500B59E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		586260BA239989A500B59E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		586260BD239989A500B59E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586260BF239989A600B59E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586260C2239989A600B59E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586260C4239989A600B59E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TuitionFA_TrinityPawlingSchool.jpg; path = ../../../Downloads/TuitionFA_TrinityPawlingSchool.jpg; sourceTree = "<group>"; };
+		58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CampusPhoto.jpg; path = ../../../Downloads/CampusPhoto.jpg; sourceTree = "<group>"; };
+		58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Trinity-Pawling_School_Crest.jpg"; path = "../../../Downloads/Trinity-Pawling_School_Crest.jpg"; sourceTree = "<group>"; };
+		58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trinity-Pawling-Lion.jpg.png"; path = "../../../Downloads/Trinity-Pawling-Lion.jpg.png"; sourceTree = "<group>"; };
+		58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cluett_Hall.jpg; path = ../../../Downloads/Cluett_Hall.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586260B0239989A500B59E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586260AA239989A500B59E10 = {
+			isa = PBXGroup;
+			children = (
+				586260B5239989A500B59E10 /* Testo12051353 */,
+				586260B4239989A500B59E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		586260B4239989A500B59E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586260B3239989A500B59E10 /* Testo12051353.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586260B5239989A500B59E10 /* Testo12051353 */ = {
+			isa = PBXGroup;
+			children = (
+				58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */,
+				58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */,
+				58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */,
+				58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */,
+				58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */,
+				586260B6239989A500B59E10 /* AppDelegate.swift */,
+				586260B8239989A500B59E10 /* SceneDelegate.swift */,
+				586260BA239989A500B59E10 /* ViewController.swift */,
+				586260BC239989A500B59E10 /* Main.storyboard */,
+				586260BF239989A600B59E10 /* Assets.xcassets */,
+				586260C1239989A600B59E10 /* LaunchScreen.storyboard */,
+				586260C4239989A600B59E10 /* Info.plist */,
+			);
+			path = Testo12051353;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		586260B2239989A500B59E10 /* Testo12051353 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586260C7239989A600B59E10 /* Build configuration list for PBXNativeTarget "Testo12051353" */;
+			buildPhases = (
+				586260AF239989A500B59E10 /* Sources */,
+				586260B0239989A500B59E10 /* Frameworks */,
+				586260B1239989A500B59E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testo12051353;
+			productName = Testo12051353;
+			productReference = 586260B3239989A500B59E10 /* Testo12051353.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586260AB239989A500B59E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Tianwei Liu";
+				TargetAttributes = {
+					586260B2239989A500B59E10 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 586260AE239989A500B59E10 /* Build configuration list for PBXProject "Testo12051353" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586260AA239989A500B59E10;
+			productRefGroup = 586260B4239989A500B59E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586260B2239989A500B59E10 /* Testo12051353 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586260B1239989A500B59E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58834FD9239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png in Resources */,
+				58834FD8239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg in Resources */,
+				58834FD7239A8DFC00A6C59E /* CampusPhoto.jpg in Resources */,
+				58834FD6239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg in Resources */,
+				586260C3239989A600B59E10 /* LaunchScreen.storyboard in Resources */,
+				586260C0239989A600B59E10 /* Assets.xcassets in Resources */,
+				586260BE239989A500B59E10 /* Main.storyboard in Resources */,
+				58834FDA239A8DFC00A6C59E /* Cluett_Hall.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586260AF239989A500B59E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586260BB239989A500B59E10 /* ViewController.swift in Sources */,
+				586260B7239989A500B59E10 /* AppDelegate.swift in Sources */,
+				586260B9239989A500B59E10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		586260BC239989A500B59E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586260BD239989A500B59E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		586260C1239989A600B59E10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586260C2239989A600B59E10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586260C5239989A600B59E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		586260C6239989A600B59E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586260C8239989A600B59E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Testo12051353/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Testo12051353;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		586260C9239989A600B59E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Testo12051353/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Testo12051353;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586260AE239989A500B59E10 /* Build configuration list for PBXProject "Testo12051353" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586260C5239989A600B59E10 /* Debug */,
+				586260C6239989A600B59E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586260C7239989A600B59E10 /* Build configuration list for PBXNativeTarget "Testo12051353" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586260C8239989A600B59E10 /* Debug */,
+				586260C9239989A600B59E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586260AB239989A500B59E10 /* Project object */;
+}
