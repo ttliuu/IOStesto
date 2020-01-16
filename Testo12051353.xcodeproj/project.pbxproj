@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581F05A623C7AB7C001B2770 /* CampusPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 581F05A123C7AB7B001B2770 /* CampusPhoto.jpg */; };
+		581F05A723C7AB7C001B2770 /* Trinity-Pawling_School_Crest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 581F05A223C7AB7B001B2770 /* Trinity-Pawling_School_Crest.jpg */; };
+		581F05A823C7AB7C001B2770 /* TuitionFA_TrinityPawlingSchool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 581F05A323C7AB7B001B2770 /* TuitionFA_TrinityPawlingSchool.jpg */; };
+		581F05A923C7AB7C001B2770 /* Trinity-Pawling-Lion.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 581F05A423C7AB7C001B2770 /* Trinity-Pawling-Lion.jpg.png */; };
+		581F05AA23C7AB7C001B2770 /* Cluett_Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 581F05A523C7AB7C001B2770 /* Cluett_Hall.jpg */; };
 		586260B7239989A500B59E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260B6239989A500B59E10 /* AppDelegate.swift */; };
 		586260B9239989A500B59E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260B8239989A500B59E10 /* SceneDelegate.swift */; };
 		586260BB239989A500B59E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586260BA239989A500B59E10 /* ViewController.swift */; };
 		586260BE239989A500B59E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586260BC239989A500B59E10 /* Main.storyboard */; };
 		586260C0239989A600B59E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586260BF239989A600B59E10 /* Assets.xcassets */; };
 		586260C3239989A600B59E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586260C1239989A600B59E10 /* LaunchScreen.storyboard */; };
-		58834FD6239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */; };
-		58834FD7239A8DFC00A6C59E /* CampusPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */; };
-		58834FD8239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */; };
-		58834FD9239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */; };
-		58834FDA239A8DFC00A6C59E /* Cluett_Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581F05A123C7AB7B001B2770 /* CampusPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CampusPhoto.jpg; sourceTree = "<group>"; };
+		581F05A223C7AB7B001B2770 /* Trinity-Pawling_School_Crest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Trinity-Pawling_School_Crest.jpg"; sourceTree = "<group>"; };
+		581F05A323C7AB7B001B2770 /* TuitionFA_TrinityPawlingSchool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TuitionFA_TrinityPawlingSchool.jpg; sourceTree = "<group>"; };
+		581F05A423C7AB7C001B2770 /* Trinity-Pawling-Lion.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trinity-Pawling-Lion.jpg.png"; sourceTree = "<group>"; };
+		581F05A523C7AB7C001B2770 /* Cluett_Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cluett_Hall.jpg; sourceTree = "<group>"; };
 		586260B3239989A500B59E10 /* Testo12051353.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testo12051353.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586260B6239989A500B59E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586260B8239989A500B59E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,11 +34,6 @@
 		586260BF239989A600B59E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586260C2239989A600B59E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586260C4239989A600B59E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TuitionFA_TrinityPawlingSchool.jpg; path = ../../../Downloads/TuitionFA_TrinityPawlingSchool.jpg; sourceTree = "<group>"; };
-		58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CampusPhoto.jpg; path = ../../../Downloads/CampusPhoto.jpg; sourceTree = "<group>"; };
-		58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Trinity-Pawling_School_Crest.jpg"; path = "../../../Downloads/Trinity-Pawling_School_Crest.jpg"; sourceTree = "<group>"; };
-		58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trinity-Pawling-Lion.jpg.png"; path = "../../../Downloads/Trinity-Pawling-Lion.jpg.png"; sourceTree = "<group>"; };
-		58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cluett_Hall.jpg; path = ../../../Downloads/Cluett_Hall.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +66,11 @@
 		586260B5239989A500B59E10 /* Testo12051353 */ = {
 			isa = PBXGroup;
 			children = (
-				58834FD2239A8DFC00A6C59E /* CampusPhoto.jpg */,
-				58834FD5239A8DFC00A6C59E /* Cluett_Hall.jpg */,
-				58834FD3239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg */,
-				58834FD4239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png */,
-				58834FD1239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg */,
+				581F05A523C7AB7C001B2770 /* Cluett_Hall.jpg */,
+				581F05A423C7AB7C001B2770 /* Trinity-Pawling-Lion.jpg.png */,
+				581F05A123C7AB7B001B2770 /* CampusPhoto.jpg */,
+				581F05A223C7AB7B001B2770 /* Trinity-Pawling_School_Crest.jpg */,
+				581F05A323C7AB7B001B2770 /* TuitionFA_TrinityPawlingSchool.jpg */,
 				586260B6239989A500B59E10 /* AppDelegate.swift */,
 				586260B8239989A500B59E10 /* SceneDelegate.swift */,
 				586260BA239989A500B59E10 /* ViewController.swift */,
@@ -140,14 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58834FD9239A8DFC00A6C59E /* Trinity-Pawling-Lion.jpg.png in Resources */,
-				58834FD8239A8DFC00A6C59E /* Trinity-Pawling_School_Crest.jpg in Resources */,
-				58834FD7239A8DFC00A6C59E /* CampusPhoto.jpg in Resources */,
-				58834FD6239A8DFC00A6C59E /* TuitionFA_TrinityPawlingSchool.jpg in Resources */,
+				581F05A923C7AB7C001B2770 /* Trinity-Pawling-Lion.jpg.png in Resources */,
+				581F05A723C7AB7C001B2770 /* Trinity-Pawling_School_Crest.jpg in Resources */,
 				586260C3239989A600B59E10 /* LaunchScreen.storyboard in Resources */,
 				586260C0239989A600B59E10 /* Assets.xcassets in Resources */,
 				586260BE239989A500B59E10 /* Main.storyboard in Resources */,
-				58834FDA239A8DFC00A6C59E /* Cluett_Hall.jpg in Resources */,
+				581F05A623C7AB7C001B2770 /* CampusPhoto.jpg in Resources */,
+				581F05AA23C7AB7C001B2770 /* Cluett_Hall.jpg in Resources */,
+				581F05A823C7AB7C001B2770 /* TuitionFA_TrinityPawlingSchool.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y42SHPSLBA;
 				INFOPLIST_FILE = Testo12051353/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -322,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y42SHPSLBA;
 				INFOPLIST_FILE = Testo12051353/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
