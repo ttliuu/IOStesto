@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet var imageViewHeight: NSLayoutConstraint!
     
     
-    //creat index variable and link picture name to a new ui picture, store them in 
+    //creat index variable and link picture name to a new ui picture, store them in arrays for future use
     
     
     var i = [1,2,3,4,5]
@@ -39,6 +39,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     var imagesArr = [UIImage(named: "CampusPhoto.jpg"), UIImage(named: "Cluett_Hall.jpg"),UIImage(named: "Trinity-Pawling_School_Crest.jpg"),UIImage(named: "Trinity-Pawling-Lion.jpg.png"),UIImage(named: "TuitionFA_TrinityPawlingSchool.jpg")]
     
     
+    //when tap a image, create another imageview and full screen it
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
         let imageView = sender.view as! UIImageView
         newImageView = UIImageView(image: imageView.image)
@@ -54,13 +55,15 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
-    
+    //when click again, dismiss the full screen image
     @objc func dismissFullscreenImage(_ sender: UITapGestureRecognizer) {
         self.navigationController?.isNavigationBarHidden = false
         self.tabBarController?.tabBar.isHidden = false
         sender.view?.removeFromSuperview()
     }
     
+    
+    //loop the pictures according to the time interval
     @IBAction func loop(_ sender: UIButton) {
         isLooping = isLooping + 1
         if(isLooping == 0){
@@ -72,6 +75,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
+    
+    //the method use to change images according to index
     @objc func Action(_ sender: Any){
         if(index == 4){
             index = -1
@@ -116,6 +121,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
+    //when press button, change the picture
     @IBAction func onPress(_ sender: UIButton) {
         if(index == 4){
             index = -1
@@ -166,6 +172,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         
     }
+    
+    
     @IBAction func unhidePress	(_ sender: UIButton) {
         i = [1,2,3,4,5]
         
@@ -173,6 +181,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         
     }
+    
     @IBAction func randPress(_ sender: UIButton) {
         let j = Int.random(in: 0...4)
         index = j
@@ -204,6 +213,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
+    //crop image according to current size and offset of scrollview
     @IBAction func onCrop(_ sender: UIButton) {
         if index != -1{
         imagesArr[index] = cropImage()
@@ -232,7 +242,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     
     
-    
+    //setup of image view tap and scrollview
     
     override func viewDidLoad() {
         super.viewDidLoad()
